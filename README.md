@@ -26,25 +26,28 @@ This project is a Flask web application based on the Flask Mega-Tutorial by Migu
 
    ```bash
    git clone https://github.com/yourusername/your-repository.git
-   ```
 
 2. Navigate to the project directory:
+   ```bash
+   cd your-repository
 
-bash
-Copy code
-cd your-repository
+4. Create a virtual environment and activate it:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   # On Windows, use `venv\Scripts\activate`
 
-3. Create a virtual environment and activate it:
-```python -m venv venv```
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+6. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
 
-4. Install the required packages:
-```pip install -r requirements.txt```
-
-5. Initialize the database:
-```flask db upgrade```
+8. Initialize the database:
+   ```bash
+   flask db upgrade
 
 ### Running the Application
 To start the Flask development server, use:
-```flask run```
+```bash
+flask run
+```
 The application will be available at http://127.0.0.1:5000.
