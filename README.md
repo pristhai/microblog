@@ -6,9 +6,11 @@ This project is a Flask web application based on the Flask Mega-Tutorial by Migu
 
 - User login/logout and registration
 - Profile page with user information and avatar
+- Follow/Unfollow between users
 - User authentication using Flask-Login
 - Password hashing with Werkzeug
 - Database integration using SQLAlchemy
+- Unittest
 
 ## Setup
 
